@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: "https://validator-v-bwacdteva7e5eugt.eastus-01.azurewebsites.net",
+  baseURL: "https://ashy-pebble-0f016711e.2.azurestaticapps.net",
 });
 
 api.interceptors.response.use(
